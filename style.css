@@ -1,0 +1,23 @@
+.btn-warning, btn-warning:active{
+    background-color: coral;
+    border-color: coral;
+}
+
+.btn-warning:focus {
+    background-color: coral;
+    border-color: coral;
+ box-shadow: 000.25rem: crimson;
+}
+
+.btn-warning:hover {
+    background-color: rgb(199, 113, 82);
+    border-color: rgb(199, 113, 82);
+
+}
+
+#myslider .images img {
+    display: none;
+}
+#myslider .images img.active {
+    display: inline;
+}
