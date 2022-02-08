@@ -1,0 +1,7 @@
+$bgcolor: blue;
+
+body{
+    background-color: lighten($bgcolor, 30%);
+
+}
+@import './styles/title.scss';
