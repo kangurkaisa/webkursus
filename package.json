@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "parcel src/index.html src/about.html"
+    "start": "parcel src/index.html"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,10 @@
   "homepage": "https://github.com/kangurkaisa/webkursus#readme",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.2.1",
+    "@parcel/transformer-vue": "^2.2.1",
     "parcel": "^2.2.1"
+  },
+  "dependencies": {
+    "vue": "^3.2.29"
   }
 }
