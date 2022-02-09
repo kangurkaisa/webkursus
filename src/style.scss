@@ -1,7 +1,3 @@
-$bgcolor: blue;
+$primary:coral;
 
-body{
-    background-color: lighten($bgcolor, 30%);
-
-}
-@import './styles/title.scss';
+@import '../node_modules/bulma/bulma.sass';
